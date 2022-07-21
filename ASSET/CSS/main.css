@@ -1,0 +1,128 @@
+*{margin: 0px;
+padding: 0px;}
+header{display: flex;
+justify-content: space-evenly;
+align-items: center;
+padding: 5px 0px 5px 0px;}
+
+.logo img{width: 10rem;}
+
+nav{display: flex;
+align-items: center;}
+nav ul{ display: flex;
+align-items: center;
+list-style: none;}
+
+nav li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    font-family: sans-serif;
+    margin: 0px 20px 0px 20px;
+}
+
+nav li a{color: chocolate;
+transition: 0.5s;}
+
+.contact_now button{background-color: transparent;
+color: chocolate;
+font-weight: 500;
+font-family: sans-serif;
+padding: 8px 12px 8px 12px;
+border: 1px solid chocolate;
+border-radius: 20px;}
+
+.contact_now button:hover{background: chocolate;
+color: white;
+transition: 0.8s;}
+
+.card-container{display: flex;
+     justify-content: center;
+    margin-top: 10px;}
+
+.card-container .card{width: 16rem;
+height: 200px;
+border-radius: 10px;
+background-color:darkgreen ;
+margin: 0px 15px 0px 15px;
+box-shadow: 5px 5px red ;}
+
+
+.card-content{display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;}
+
+.card-container .icon img{width: 7rem;
+}
+.hero-image{margin-left: 50rem;
+height: 30vh;}
+
+.hero-text h5{ color: blue
+    ;font-family: sans-serif;
+margin-bottom: 6px;}
+
+    .hero-text{ margin-bottom: 20px;
+    padding-left: 3rem;
+padding-bottom: 3rem;}
+
+    .hero-text h2{font-family: sans-serif;}
+    .hero-text p{margin-top: 10px;}
+
+    .hero-text button{background-color: blue;
+    border:transparent;
+    color: white;
+    padding: 10px 5px 10px 5px;
+    border-radius: 20px;
+}
+.services{display: flex;
+justify-content: center;}
+
+.services h5{display: flex;
+justify-content: center;
+color: blue;}
+
+.services h2{display: flex;
+justify-content: center;}
+
+.eam{display: flex;
+align-items: center;
+justify-content: center;
+margin: 5rem;
+flex-direction: row;}
+
+.eam h5{text-align: center;}
+
+h2 mark{background-color: white;
+color: green;}
+
+.name{display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 17rem;
+margin-left: 15px;
+justify-content: space-around;
+text-align: center;}
+
+ .wilo img{border-radius: 40px;}
+
+ .name .wilo .text:hover{background: lightblue;
+border-radius: 10px;
+padding: 5px 10px 5px 10px;}
+
+button{border-radius: 10px;
+margin-left:42rem;
+padding: 5px 15px 5px 15px;
+border: transparent;
+background-color:rgb(12, 12, 196);
+color: white;
+margin-top: 1rem;}
+
+
+
+ 
+
+
+
+
